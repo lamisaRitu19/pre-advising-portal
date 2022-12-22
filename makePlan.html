@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre Advising Portal</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/Navbar.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="/css/AllCourses.css">
+    <link rel="stylesheet" href="/css/Plan.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="logo-container">
+                <img src="./images/iub.png" alt="" />
+                <p>Pre Advising Portal</p>
+            </a>
+            <div class="nav-container">
+                <a href="/viewCourses.html">View courses</a>
+                <a href="/selectCourses.html">Select courses</a>
+                <a href="/makePlan.html">Make plan</a>
+                <a href="/addCourses.html">Add course</a>
+                <a href="/viewCapacity.html">View capacity</a>
+                <a href="/changeCapacity.html">Change capacity</a>
+            </div>
+            <button>Log In</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="makePlan">
+                <div>
+                    <h2><img src="images/courses.jpg" alt="" /> All Courses</h2>
+                    <!-- all courses -->
+                    <div class="allCourses" id="allCourses">
+                        <div class="course-type foundation" id="foundation">
+                            <h3>Foundation</h3>
+                        </div>
+                        <div class="course-type core" id="core">
+                            <h3>Core</h3>
+                        </div>
+                        <div class="course-type optional" id="optional">
+                            <h3>Optional</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2><img src="images/planIcon.png" alt="" /> Plan</h2>
+
+                    <!-- plan -->
+                    <div class="plan">
+                        <div class="semester">
+                            <div class="semester-title">
+                                <h4>Autumn 2022</h4>
+                                <p>Total credit: <span>11</span></p>
+                                <!-- <button onclick="editSelectedCourses()">
+                                    <img src="images/editIcon.png" alt="" />
+                                </button> -->
+                            </div>
+                            <div class="semester-courses">
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>ENG101</span>
+                                        <span>Listening and Speaking English</span>
+                                        <span class="course-credit">3 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>CSC101</span>
+                                        <span>Introduction to Computer Programming & lab</span>
+                                        <span class="course-credit">4 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>PHY101</span>
+                                        <span>
+                                            University Physics 1 & lab</span>
+                                        <span class="course-credit">4 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <!-- <div id="selectedCourseButtons">
+                                    <button>Save</button>
+                                    <button onclick="cancel()">Cancel</button>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="semester">
+                            <div class="semester-title">
+                                <h4>Spring 2023</h4>
+                                <p>Total credit: <span>11</span></p>
+                                <button onclick="editSelectedCourses()">
+                                    <img src="images/editIcon.png" alt="" />
+                                </button>
+                            </div>
+                            <div class="semester-courses">
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>ENG102</span>
+                                        <span>English Reading Skills</span>
+                                        <span class="course-credit">3 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>MAT212</span>
+                                        <span>Probability & Statistics for Science and Engineering</span>
+                                        <span class="course-credit">4 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <div class="del-course">
+                                    <div class="course">
+                                        <span class='course-code'>PHY102</span>
+                                        <span>
+                                            University Physics 2 & lab</span>
+                                        <span class="course-credit">4 credits</span>
+                                    </div>
+                                    <img src="images/crossIcon.png" class="crossImg" alt="" />
+                                </div>
+                                <div id="selectedCourseButtons">
+                                    <button>Save</button>
+                                    <button onclick="cancel()">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button>Add Semester</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/SelectCourses&Plan.js"></script>
+    <script src="/js/dataLoad.js"></script>
+</body>
+
+</html>

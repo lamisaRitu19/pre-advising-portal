@@ -1,0 +1,509 @@
+[
+    {
+        "type": "Foundation",
+        "t_credit": "42",
+        "sub": [
+            {
+                "sub_type": "Communication Skills",
+                "s_credit": "9",
+                "courses": [
+                    {
+                        "courseId": "ENG101",
+                        "courseTitle": "Listening and Speaking English",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 22,
+                        "seatCapacityRequired": 40,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "ENG102",
+                        "courseTitle": "English Reading Skills",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "ENG 101",
+                                "pre_courseTitle": "Listening and Speaking English"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "ENG105",
+                        "courseTitle": "Business English",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 37,
+                        "seatCapacityRequired": 22,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "ENG 101",
+                                "pre_courseTitle": "Listening and Speaking English"
+                            },
+                            {
+                                "pre_courseId": "ENG 102",
+                                "pre_courseTitle": "English Reading Skills"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sub_type": "Computer Skills",
+                "s_credit": "4",
+                "courses": [
+                    {
+                        "courseId": "CSC101",
+                        "courseTitle": "Introduction to Computer Programming & Lab",
+                        "courseType": "Foundation",
+                        "credit": 4,
+                        "seatCapacityGiven": 20,
+                        "seatCapacityRequired": 20,
+                        "prerequisite": []
+                    }
+                ]
+            },
+            {
+                "sub_type": "Numeracy",
+                "s_credit": "6",
+                "courses": [
+                    {
+                        "courseId": "MAT104",
+                        "courseTitle": "Calculus and Analytical Geometry",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 20,
+                        "seatCapacityRequired": 20,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "MAT212",
+                        "courseTitle": "Probability & Statistics for Science and Engineering",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 20,
+                        "seatCapacityRequired": 20,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 101",
+                                "pre_courseTitle": "Introduction to Computer Programming"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sub_type": "Natural Sciences",
+                "s_credit": "8",
+                "courses": [
+                    {
+                        "courseId": "PHY101",
+                        "courseTitle": "University Physics 1 & Lab",
+                        "courseType": "Foundation",
+                        "credit": 4,
+                        "seatCapacityGiven": 24,
+                        "seatCapacityRequired": 36,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "PHY102",
+                        "courseTitle": "University Physics 2 & Lab",
+                        "courseType": "Foundation",
+                        "credit": 4,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "PHY 101",
+                                "pre_courseTitle": "University Physics 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sub_type": "Social Sciences",
+                "s_credit": "6",
+                "courses": [
+                    {
+                        "courseId": "ANT101",
+                        "courseTitle": "Introduction to Anthropology",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 24,
+                        "seatCapacityRequired": 36,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "SOC101",
+                        "courseTitle": "Introduction to Sociology",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "HEA101",
+                        "courseTitle": "Health and Society",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "SOC202",
+                        "courseTitle": "Social Psychology",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "ECN200",
+                        "courseTitle": "Introduction to Economics",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "CMN201",
+                        "courseTitle": "Introduction to Communication",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    }
+                ]
+            },
+            {
+                "sub_type": "Humanities",
+                "s_credit": "6",
+                "courses": [
+                    {
+                        "courseId": "NCH101",
+                        "courseTitle": "Bangladesh 1971 - Through the Lenses",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 24,
+                        "seatCapacityRequired": 36,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "BPH101",
+                        "courseTitle": "Bangladesh Political History",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "BLA101",
+                        "courseTitle": "Bangla Literature and Art",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "AAT101",
+                        "courseTitle": "Art and Aesthetics",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "HST103",
+                        "courseTitle": "History and Civilization",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "MUS101",
+                        "courseTitle": "Music Appreciation",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "FRN101",
+                        "courseTitle": "Elementary French",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "PHL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "PHL206",
+                        "courseTitle": "Philosophy of Religion",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "CHI101",
+                        "courseTitle": "Elementary Chinese - I",
+                        "courseType": "Foundation",
+                        "credit": 3,
+                        "seatCapacityGiven": 26,
+                        "seatCapacityRequired": 45,
+                        "prerequisite": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Major",
+        "t_credit": "86",
+        "sub": [
+            {
+                "sub_type": "Core Courses",
+                "s_credit": "59",
+                "courses": [
+                    {
+                        "courseId": "CSC201",
+                        "courseTitle": "Discrete Mathematics",
+                        "courseType": "Major",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 101",
+                                "pre_courseTitle": "Introduction to Computer Programming"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC203",
+                        "courseTitle": "Data Structure & Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 101",
+                                "pre_courseTitle": "Introduction to Computer Programming"
+                            },
+                            {
+                                "pre_courseId": "CSC 201",
+                                "pre_courseTitle": "Discrete Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC204",
+                        "courseTitle": "Introduction to Computer Hardware and Digital Logic  + Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "PHY 102",
+                                "pre_courseTitle": "University Physics 2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC212",
+                        "courseTitle": "Microprocessor, Interfacing and Assembly Language  + Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 101",
+                                "pre_courseTitle": "Introduction to Computer Programming"
+                            },
+                            {
+                                "pre_courseId": "CSC 311",
+                                "pre_courseTitle": "Computer Organization and Architecture"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC301",
+                        "courseTitle": "Finite Automata and Computability",
+                        "courseType": "Major",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 201",
+                                "pre_courseTitle": "Discrete Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC305",
+                        "courseTitle": "Object-Oriented Programming  + Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 203 + Lab",
+                                "pre_courseTitle": "Data Structure"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC306",
+                        "courseTitle": "Algorithms  + Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 203 + Lab",
+                                "pre_courseTitle": "Data Structure"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC311",
+                        "courseTitle": "Computer Organization and Architecture",
+                        "courseType": "Major",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 204 + Lab",
+                                "pre_courseTitle": "Introduction to Computer Hardware and Digital Logic"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC401",
+                        "courseTitle": "Database Management  + Lab",
+                        "courseType": "Major",
+                        "credit": 4,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 203 + Lab",
+                                "pre_courseTitle": "Data Structure"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSC405",
+                        "courseTitle": "System Analysis and Design",
+                        "courseType": "Major",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 401 + Lab",
+                                "pre_courseTitle": "Database Management"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "sub_type": "Optional Courses",
+                "s_credit": "12",
+                "courses": [
+                    {
+                        "courseId": "CSC416",
+                        "courseTitle": "Distributed Database Systems",
+                        "courseType": "Optional",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 401 + Lab",
+                                "pre_courseTitle": "Database Management"
+                            },
+                            {
+                                "pre_courseId": "CSC 306 + Lab",
+                                "pre_courseTitle": "Algorithms"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSE451",
+                        "courseTitle": "Software Engineering",
+                        "courseType": "Optional",
+                        "credit": 3,
+                        "seatCapacityGiven": 29,
+                        "seatCapacityRequired": 38,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 401 + Lab",
+                                "pre_courseTitle": "Database Management"
+                            }
+                        ]
+                    },
+                    {
+                        "courseId": "CSE457",
+                        "courseTitle": "Project Management",
+                        "courseType": "Optional",
+                        "credit": 3,
+                        "seatCapacityGiven": 49,
+                        "seatCapacityRequired": 33,
+                        "prerequisite": []
+                    },
+                    {
+                        "courseId": "CSC460",
+                        "courseTitle": "Multimedia Systems",
+                        "courseType": "Optional",
+                        "credit": 3,
+                        "seatCapacityGiven": 31,
+                        "seatCapacityRequired": 28,
+                        "prerequisite": [
+                            {
+                                "pre_courseId": "CSC 305 + Lab",
+                                "pre_courseTitle": "Object-Oriented Programming"
+                            },
+                            {
+                                "pre_courseId": "CSC 306 + Lab",
+                                "pre_courseTitle": "Algorithms"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

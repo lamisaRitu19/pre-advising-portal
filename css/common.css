@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #efedfc;
+    min-height: calc(100vh - 80px);
+    padding: 0 100px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #18154f;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2>img {
+    width: 30px;
+}
+
+.makePlan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-size: 20px;
+    color: #4b4b55;
+    text-align: left;
+}
+
+.makePlan h2 {
+    font-size: 40px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre Advising Portal</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/Navbar.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/AddCourses.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="logo-container">
+                <img src="./images/iub.png" alt="" />
+                <p>Pre Advising Portal</p>
+            </a>
+            <div class="nav-container">
+                <a href="/viewCourses.html">View courses</a>
+                <a href="/selectCourses.html">Select courses</a>
+                <a href="/makePlan.html">Make plan</a>
+                <a href="/addCourses.html">Add course</a>
+                <a href="/viewCapacity.html">View capacity</a>
+                <a href="/changeCapacity.html">Change capacity</a>
+            </div>
+            <button>Log In</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container-addCourseForm">
+            <p class="notify" id="notify">
+                ✅ The course has been added
+                <img src="images/crossIcon.png" id="crossBtn" alt="" />
+            </p>
+            <h2><img src="images/courses.jpg" alt="" /> Add Course</h2>
+            <div class="addCourseForm">
+                <div>
+                    <span>Course Title: </span>
+                    <input type="text" />
+                </div>
+                <div>
+                    <span>Course Code: </span>
+                    <input type="text" />
+                </div>
+                <div>
+                    <span>Course Type: </span>
+                    <input type="text" />
+                </div>
+                <div>
+                    <span>Credit Hour: </span>
+                    <input type="text" />
+                </div>
+                <div>
+                    <span>Seat Capacity: </span>
+                    <input type="text" />
+                </div>
+                <button onclick="saveAddCourse()">Save</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/AddCour&ChangeCap.js"></script>
+</body>
+
+</html>

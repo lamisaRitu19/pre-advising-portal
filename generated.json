@@ -1,0 +1,128 @@
+[
+  {
+    "courseId": "ENG101",
+    "courseTitle": "Listening and Speaking English",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 22,
+    "seatCapacityRequired": 40,
+    "prerequisite": "none"
+  },
+  {
+    "courseId": "ENG102",
+    "courseTitle": "English Reading Skills",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 31,
+    "seatCapacityRequired": 28,
+    "prerequisite": "ENG101"
+  },
+  {
+    "courseId": "ENG105",
+    "courseTitle": "Business English",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 37,
+    "seatCapacityRequired": 22,
+    "prerequisite": "ENG102"
+  },
+  {
+    "courseId": "CSC101",
+    "courseTitle": "Introduction to Computer Programming",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 20,
+    "seatCapacityRequired": 20,
+    "prerequisite": "none"
+  },
+  {
+    "courseId": "PHY101",
+    "courseTitle": "University Physics 1",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 24,
+    "seatCapacityRequired": 36,
+    "prerequisite": "none"
+  },
+  {
+    "courseId": "PHY102",
+    "courseTitle": "University Physics 2",
+    "courseType": "Foundation",
+    "credit": 3,
+    "seatCapacityGiven": 26,
+    "seatCapacityRequired": 45,
+    "prerequisite": "PHY101"
+  },
+  {
+    "courseId": "CSE104",
+    "courseTitle": "Electrical Circuit Analysis",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 26,
+    "seatCapacityRequired": 29,
+    "prerequisite": "PHY102"
+  },
+  {
+    "courseId": "CSE201",
+    "courseTitle": "Discrete Mathematics",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 30,
+    "seatCapacityRequired": 25,
+    "prerequisite": "PHY102"
+  },
+  {
+    "courseId": "CSE203",
+    "courseTitle": "Data Structure",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 37,
+    "seatCapacityRequired": 30,
+    "prerequisite": "CSE201"
+  },
+  {
+    "courseId": "CSE303",
+    "courseTitle": "Database Management",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 44,
+    "seatCapacityRequired": 30,
+    "prerequisite": "CSE203"
+  },
+  {
+    "courseId": "CSE213",
+    "courseTitle": "Object Oriented Programming",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 36,
+    "seatCapacityRequired": 29,
+    "prerequisite": "CSE203"
+  },
+  {
+    "courseId": "CSE307",
+    "courseTitle": "System Analysis and Design",
+    "courseType": "Core",
+    "credit": 3,
+    "seatCapacityGiven": 41,
+    "seatCapacityRequired": 26,
+    "prerequisite": "CSE303"
+  },
+  {
+    "courseId": "CSE451",
+    "courseTitle": "Software Engineering",
+    "courseType": "Optional",
+    "credit": 3,
+    "seatCapacityGiven": 29,
+    "seatCapacityRequired": 38,
+    "prerequisite": "CSE307"
+  },
+  {
+    "courseId": "CSE457",
+    "courseTitle": "Project Management",
+    "courseType": "Optional",
+    "credit": 3,
+    "seatCapacityGiven": 49,
+    "seatCapacityRequired": 33,
+    "prerequisite": "CSE451"
+  }
+]

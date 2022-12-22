@@ -1,0 +1,64 @@
+.container-addCourseForm {
+    background-color: #efedfc;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #85D1A0;
+    margin: 20px 0 10px;
+    border-radius: 15px;
+    padding: 5px 80px;
+    display: none;
+}
+
+.notify img {
+    width: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.addCourseForm {
+    text-align: center;
+}
+
+.addCourseForm>div {
+    margin-bottom: 20px;
+}
+
+.addCourseForm span {
+    color: #121038;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.addCourseForm input {
+    background-color: #d5d6d9;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.addCourseForm button {
+    background-color: #6255A5;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 60px;
+    cursor: pointer;
+    margin: 30px auto 0;
+}
+
+.addCourseForm button:hover {
+    background-color: #8572e7;
+    color: #121038;
+}

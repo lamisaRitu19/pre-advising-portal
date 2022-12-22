@@ -1,0 +1,73 @@
+.semester {
+    background-color: #cdc5f5;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.semester-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #121038;
+    background-color: #a08ff3;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.semester-title h4 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.semester-title p {
+    margin: 0;
+}
+
+.semester-title>button {
+    background-color: #a08ff3;
+    border: 0;
+}
+
+.semester img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.semester-courses {
+    padding: 10px 20px 20px;
+
+}
+
+.del-course {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.del-course>img {
+    display: none;
+    /* visibility: hidden; */
+    width: 3%;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#selectedCourseButtons {
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.plan>button,
+#selectedCourseButtons button {
+    background-color: #6255A5;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
